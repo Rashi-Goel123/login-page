@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.outer{
+    height:95vh;
+    width: 45vw;
+   border-radius: 10px;
+   background-image: url(assets/download\ \(1\).jpeg);
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin:25vw; 
+}
+.inner{
+    height: 75vh;
+    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding-left: 1vw;
+
+}
+#head{
+    color: black;
+    font-size: 3vw;
+    padding:8vw;
+    padding-top: 2vw;
+    height:1vw;
+}
+.main1{
+ height:2vw;
+ padding:1vw;
+ border: 2px solid blue;
+ color:crimson;
+ font-size: 1vw;
+}
+@media screen and (min-width:93px) {
+    .main1{
+        height:1vw;
+    }
+}
+.button{
+    height:2vw;
+    margin-left: 10vw;
+}
+.button2{
+height:2vw;
+margin-left: 7vw;
+}
+.button:hover{
+    background-color: crimson;
+    border-color:black;
+    letter-spacing: 0.15cm;
+    box-shadow:3px 3px brown;
+}
+.button2:hover{
+    background-color:aqua;
+    border-color:black;
+    letter-spacing: 0.15cm;
+    box-shadow:3px 3px brown;
+}
+
